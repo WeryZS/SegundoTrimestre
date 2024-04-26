@@ -1,0 +1,122 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Tahoma;
+    
+}
+
+#carouselExampleAutoplaying {
+    margin: auto;
+    margin-bottom: 20px;
+    border: 8px solid rgba(185, 182, 182, 0.56);
+    width:auto;
+    border-radius: 5px;
+    width: 1400px;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 31, 105);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.header h1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header h1 a:hover{
+    color: black;
+}
+
+.symbol {
+    width: 90px;
+
+}
+
+.titulo{
+    display: flex;
+}
+
+.universoLol h1{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    background-color: aliceblue;
+}
+.dropdown{
+    display: flex;
+    justify-self: flex-end;
+}
+
+.menu_desplegable{
+    background-color: rgb(18, 29, 90);
+    color: rgb(255, 255, 255);
+}
+
+#gris a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+#gris a:hover{
+    color: rgb(117, 117, 117);
+}
+
+#rojo a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+#rojo a:hover{
+    color: rgb(146, 0, 0);
+}
+
+#azul a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+#azul a:hover{
+    color: rgb(9, 14, 168);
+}
+
+#verde a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+#verde a:hover{
+    color:rgb(4, 125, 24);
+}
+
+#celeste a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+
+#celeste a:hover{
+    color: rgb(32, 145, 147);
+}
+
+.paginaAbajo{
+    background-color: rgb(18, 31, 105);
+}
+
+#pie{
+    background-color: rgb(18, 31, 105);
+    color: rgb(255, 255, 255);
+}

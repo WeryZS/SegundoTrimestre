@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url("../imgBoostr/Ahrirosdita.jpg") no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+
+}
+
+.Formulario{
+    width: 400px;
+    height: 400px;
+    background: transparent ;
+    backdrop-filter: blur(3px);
+    border-radius: 20px ;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.952);
+    color:rgb(255, 255, 255);
+    padding: 30px 40px;
+}
+
+.Formulario h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.Formulario .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    padding: 15px 15px;
+    
+}
+
+.input-box input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px;
+}
+
+.Formulario .forgot-password{
+    display: flex;
+    justify-content:space-between;
+    font-size: 15px;
+    margin: -15px 0px 15px;
+}
+
+.forgot-password label input{
+    accent-color: #fff;
+    margin-right: 2px;
+}
+
+.forgot-password a  {
+    color:#fff;
+    text-decoration:none ; /* <---- este es para quitarle a "a href" el subrayado azul q tiene por defecto en la pagina  */
+}
+
+.forgot-password a:hover {  /* <---- el "hover" aqui es necesario por q este especifica q el texto elegido cuando se le pase por encima con el cursor del mouse   */
+    text-decoration: underline; /* <----- este es para q cuando se le pase  */
+}
+
+.Formulario .button {
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius:25px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.952);
+    font-weight: 600;
+}
+
+.Formulario .cuenta {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+
+.cuenta p a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 2px;
+}
+
+.cuenta p a:hover{
+    text-decoration: underline;
+}

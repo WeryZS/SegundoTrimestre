@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div>
+                <h1>QUÉ DEBE DE TENER UN FORMULARIO CONTACTENOS</h1>
+            </div>
+            <div>
+                <h3> <a href="">Inicio</a></h3>
+                <h3> <a href="">Loggin</a></h3>
+                <h3> <a href="">Registro</a></h3>
+            </div>
+        </section>
+    </header>
+    <div class="formulario"> 
+        <form method="post">
+            <div>
+                <label for="nombre">Ingresa tu nombre</label>
+                <input type="text" placeholder="Andrés Felipe" id="nombre">
+            </div>
+            <div>
+                <label for="correo">Ingresa tu correo</label>
+                <input type="email" placeholder="andres@ejemplo.com" id="correo">
+            </div>
+            <div>
+                <label for="asunto">Asunto</label>
+                <textarea id="asunto" cols="30" rows="10" placeholder="Ingresa el motivo del contacto"></textarea>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="30" rows="10" placeholder="Ingresa el mensaje"></textarea>
+            </div>
+            <div class="enviar">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <div>
+            <p><strong>Teléfono:</strong> 3142571700</p>
+        </div>
+        <div>
+            <p><strong>Direccion:</strong> Calle 6B 8C 09SUR</p>
+        </div>
+        <div>
+            <p><strong>Empresa:</strong> Ratatouille</p>
+        </div>
+        <div>
+            <p><strong>Sitio Web:</strong> Www.Ratatouille.com</p>
+        </div>
+        <div>
+            <form method="post">
+                <label for="numero"><strong>Ingresa tu numero telefónico:</strong></label>
+                <input type="text" placeholder="Numero del cliente" id="numero">
+                <input type="submit">
+            </form>
+        </div>
+        <div>
+            <label for="archivo"><strong>Carga el documento que quieras: </strong></label>
+            <input type="file" id="archivo">
+        </div>
+    </footer>
+</body>
+</html>

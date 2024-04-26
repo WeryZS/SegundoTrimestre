@@ -1,0 +1,42 @@
+button {
+    background-color: #273928; /* Color de fondo por defecto */
+    color: white; /* Color del texto por defecto */
+    padding: 10px 20px; /* Espaciado interno por defecto */
+    border: none; /* Sin borde por defecto */
+}
+  
+button:hover {
+    background-color: #aeffb2; /* Color de fondo cuando se pasa el cursor */
+}
+
+body p{
+    color: blue;
+}
+
+p :hover{
+    color: rgb(242, 255, 0);
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 :hover {
+    color: #45a049;  
+}
+
+input:hover {
+    cursor: pointer;
+}   
+
+input:hover {
+    background-color: #000000;
+    border-color: #ff0000;
+}
+
+input[type="text"]:hover {
+    color: #0099ff;
+    font-weight: bold;
+}
+  
+  

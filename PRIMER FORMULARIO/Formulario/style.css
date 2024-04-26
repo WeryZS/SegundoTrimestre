@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive ;
+}
+
+.header {
+
+    display: flex;                  /*permite distribuir el espacio entre los elementos de manera más eficiente, alineando */
+    align-items: center;            /*va de la mano con "display flex" ya que permite centrar los diferentes contenedores q se encuentren en esa clase*/
+    flex-direction:column;         /*este sirve para alinear en forma de columnas los items que contiene */
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px 28%;
+}
+
+.header h3 {
+    display:inline;            
+    padding-left: 12px;        
+    padding-right: 12px;
+       
+}
+
+body {
+    background: url(c.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario{
+    display: flex;
+    border: 2px solid;
+    margin: 2% 35%;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5% 10%;
+}
+.enviar{
+    display: flex;
+    justify-content:center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
